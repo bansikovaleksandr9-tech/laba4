@@ -1,7 +1,6 @@
 cache = {}
 
 def fibonacci(n):
-    """Вычисление числа Фибоначчи с мемоизацией"""
     
     if n in cache:
         return cache[n]
